@@ -121,7 +121,17 @@
           "dataSetName": "Book Add.csv",
           "dataSetGroupName": "default"
         },
-        "isValidationsEnabled": true
+        "isValidationsEnabled": true,
+        "callbacks": {
+          "onScriptError": {
+            "callbackFunction": "onScriptError",
+            "callbackKeyword": "callback_one"
+          },
+          "onScriptEnd": {
+            "callbackFunction": "onScriptEnd",
+            "callbackKeyword": "callback_one"
+          }
+        }
       }
     ],
     "tags": "test",
@@ -131,7 +141,17 @@
       "1712143340992",
       "1712751794514",
       "1714714110875"
-    ]
+    ],
+    "callbacks": {
+      "onScriptError": {
+        "callbackFunction": "onScriptError",
+        "callbackKeyword": "callback_one"
+      },
+      "onScriptEnd": {
+        "callbackFunction": "onScriptEnd",
+        "callbackKeyword": "callback_one"
+      }
+    }
   },
   "enabled": true,
   "parentId": ""
