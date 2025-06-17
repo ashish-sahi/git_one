@@ -1,0 +1,52 @@
+{
+  "name": "base",
+  "id": "-1",
+  "type": 2,
+  "content": {
+    "accessors": [
+      {
+        "id": "acc0",
+        "name": "Link My Account",
+        "accessor": "_link(\"My Account\")",
+        "specific": [
+          {
+            "filterId": "fltUID_0f8dacf30ae44040bc0ae4d0b2c16c5478e3",
+            "overrides": {
+              "accessor": "_link(\"My Account _newUI\")"
+            }
+          },
+          {
+            "filterId": "fltUID_855a0806060ce04a06083530348895e6d04d",
+            "overrides": {
+              "accessor": "_link(\"My Account iOS\")"
+            }
+          },
+          {
+            "filterId": "flt_test_test_0",
+            "overrides": {
+              "accessor": "_link(\"我的账户\")"
+            }
+          }
+        ]
+      },
+      {
+        "id": "acc1",
+        "name": "Link Register",
+        "accessor": "_link(\"Register\")",
+        "specific": []
+      },
+      {
+        "id": "acc2",
+        "name": "Link Logout",
+        "accessor": "_link(\"Logout\")"
+      },
+      {
+        "id": "acc3",
+        "name": "Span Caret",
+        "accessor": "_span(\"caret\")"
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

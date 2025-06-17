@@ -1,0 +1,35 @@
+{
+  "name": "registration",
+  "id": "-1",
+  "type": 2,
+  "content": {
+    "accessors": [
+      {
+        "id": "acc0",
+        "name": "Checkbox Agree",
+        "accessor": "_checkbox(\"agree\")",
+        "specific": []
+      },
+      {
+        "id": "acc1",
+        "name": "Submit Continue",
+        "accessor": "_submit(\"Continue\")",
+        "specific": []
+      },
+      {
+        "id": "acc2",
+        "name": "Radiogroup Newsletter",
+        "accessor": "_radioGroup(\"newsletter\")",
+        "specific": []
+      },
+      {
+        "id": "acc_parentNode__labelUsernameTABLE1",
+        "name": "Parent Element Div",
+        "accessor": "_parentNode(_label(\"Username\"), \"TABLE\", 1)",
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

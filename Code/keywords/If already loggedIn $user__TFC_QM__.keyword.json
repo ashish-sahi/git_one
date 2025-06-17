@@ -1,0 +1,80 @@
+{
+  "name": "If already loggedIn $user?",
+  "id": "-1",
+  "type": 3,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "If already loggedIn $user?",
+    "specific": [],
+    "parameters": [
+      {
+        "parameterId": "user_",
+        "entityTypeId": "user",
+        "suffix": ""
+      }
+    ],
+    "steps": [
+      {
+        "commented": false,
+        "action": "_click",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "screenId": "base",
+            "accessorId": "acc0"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "visibleCheck": false,
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_isVisible",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "screenId": "base",
+            "accessorId": "acc2"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Store",
+        "secondaryParam": {
+          "paramMode": "code",
+          "customValue": "logoutVisible"
+        },
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_log",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "$logoutVisible"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "return",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "$logoutVisible"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

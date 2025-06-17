@@ -1,0 +1,176 @@
+{
+  "name": "Navigate from @base to @registration",
+  "id": "-1",
+  "type": 3,
+  "content": {
+    "isSystemKeyword": true,
+    "title": "Navigate from @base to @registration",
+    "specific": [
+      {
+        "filterId": "fltUID_0f8dacf30ae44040bc0ae4d0b2c16c5478e3",
+        "overrides": {
+          "steps": [
+            {
+              "commented": true,
+              "action": "_navigateTo",
+              "stepParameters": [
+                {
+                  "paramMode": "string",
+                  "customValue": "http://demoapps.testflowchart.com/opencart/"
+                }
+              ],
+              "stepCategory": "inbuilt",
+              "stepType": "Action",
+              "specific": []
+            },
+            {
+              "commented": false,
+              "action": "_click",
+              "stepParameters": [
+                {
+                  "paramMode": "default",
+                  "screenId": "base",
+                  "accessorId": "acc0"
+                }
+              ],
+              "stepCategory": "inbuilt",
+              "stepType": "Action",
+              "specific": []
+            },
+            {
+              "commented": false,
+              "action": "_click",
+              "stepParameters": [
+                {
+                  "paramMode": "default",
+                  "screenId": "base",
+                  "accessorId": "acc1"
+                }
+              ],
+              "stepCategory": "inbuilt",
+              "stepType": "Action",
+              "specific": []
+            }
+          ]
+        },
+        "enabled": false
+      },
+      {
+        "filterId": "fltUID_855a0806060ce04a06083530348895e6d04d",
+        "overrides": {
+          "steps": [
+            {
+              "commented": false,
+              "action": "_navigateTo",
+              "stepParameters": [
+                {
+                  "paramMode": "string",
+                  "customValue": "http://demoapps.testflowchart.com/opencart/admin"
+                }
+              ],
+              "stepCategory": "inbuilt",
+              "stepType": "Action",
+              "specific": []
+            }
+          ]
+        },
+        "enabled": true
+      }
+    ],
+    "parameters": [],
+    "steps": [
+      {
+        "commented": false,
+        "action": "_navigateTo",
+        "stepParameters": [
+          {
+            "paramMode": "string",
+            "customValue": "http://demoapps.testflowchart.com/opencart/"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": [
+          {
+            "filterId": "fltUID_855a0806060ce04a06083530348895e6d04d",
+            "overrides": {
+              "step": {
+                "commented": false,
+                "action": "_navigateTo",
+                "stepParameters": [
+                  {
+                    "paramMode": "string",
+                    "customValue": "http://demoapps.testflowchart.com/oc/"
+                  }
+                ],
+                "stepCategory": "inbuilt",
+                "stepType": "Action",
+                "specific": []
+              }
+            }
+          },
+          {
+            "filterId": "fltUID_0f8dacf30ae44040bc0ae4d0b2c16c5478e3",
+            "overrides": {
+              "step": {
+                "commented": false,
+                "action": "_navigateTo",
+                "stepParameters": [
+                  {
+                    "paramMode": "string",
+                    "customValue": "http://demoapps.testflowchart.com/opencart/"
+                  }
+                ],
+                "stepCategory": "inbuilt",
+                "stepType": "Action",
+                "specific": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "commented": false,
+        "action": "_click",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "screenId": "base",
+            "accessorId": "acc0"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_click",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "screenId": "base",
+            "accessorId": "acc1"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      },
+      {
+        "commented": false,
+        "isRawScript": true,
+        "rawScript": "if (true) {",
+        "specific": []
+      },
+      {
+        "commented": false,
+        "isRawScript": true,
+        "rawScript": "}",
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

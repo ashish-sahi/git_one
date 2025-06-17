@@ -1,0 +1,20 @@
+{
+  "name": "Logout $user",
+  "id": "-1",
+  "type": 3,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "Logout $user",
+    "specific": [],
+    "parameters": [
+      {
+        "parameterId": "user_",
+        "entityTypeId": "user",
+        "suffix": ""
+      }
+    ],
+    "steps": []
+  },
+  "enabled": false,
+  "parentId": ""
+}

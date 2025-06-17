@@ -1,0 +1,73 @@
+{
+  "name": "Verify $book added",
+  "id": "-1",
+  "type": 3,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "Verify $book added",
+    "specific": [],
+    "parameters": [
+      {
+        "parameterId": "book_",
+        "entityTypeId": "book",
+        "suffix": ""
+      }
+    ],
+    "steps": [
+      {
+        "commented": false,
+        "action": "_log",
+        "stepParameters": [
+          {
+            "paramMode": "string",
+            "customValue": "Verify $book added"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_getText",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "book_",
+            "attributeId": "attr_total_3",
+            "accessorId": "acc_textbox_total"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Assert",
+        "assertType": "Equals",
+        "secondaryParam": {
+          "paramMode": "default",
+          "parameterId": "book_",
+          "attributeId": "attr_total_3"
+        },
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_getText",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "_bold(\"Sahi Training Site\")"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Assert",
+        "assertType": "Equals",
+        "secondaryParam": {
+          "paramMode": "string",
+          "customValue": "Sahi Training Site"
+        },
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

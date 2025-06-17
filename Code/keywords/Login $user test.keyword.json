@@ -1,0 +1,114 @@
+{
+  "name": "Login $user test",
+  "id": "-1",
+  "type": 3,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "Login $user test",
+    "specific": [],
+    "parameters": [
+      {
+        "parameterId": "user_",
+        "entityTypeId": "user",
+        "suffix": ""
+      }
+    ],
+    "steps": [
+      {
+        "commented": false,
+        "action": "_click",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "_link(\"My Account\")"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_click",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "_link(\"Login\")"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_setValue",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_21690273326414",
+            "accessorId": "acc1"
+          },
+          {
+            "paramMode": "code",
+            "customValue": "\"ashish.kumar@sahi.co.in\""
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "visibleCheck": false,
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_setValue",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_41690273326414",
+            "accessorId": "acc0"
+          },
+          {
+            "paramMode": "code",
+            "customValue": "\"avcsdav\""
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "visibleCheck": false,
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_click",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "_submit(\"Login\")"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_exists",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "_submit(\"Login\")"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Assert",
+        "assertType": "Is_True",
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

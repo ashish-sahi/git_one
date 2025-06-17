@@ -1,0 +1,460 @@
+{
+  "name": "Enter $user details",
+  "id": "-1",
+  "type": 3,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "Enter $user details",
+    "specific": [
+      {
+        "filterId": "fltUID_338bdd4107e3d04d1b080b202069864808a7",
+        "overrides": {
+          "steps": [
+            {
+              "commented": true,
+              "action": "_setValue",
+              "stepParameters": [
+                {
+                  "paramMode": "default",
+                  "parameterId": "user_",
+                  "attributeId": "attr_01690273326414",
+                  "accessorId": "acc0"
+                },
+                {
+                  "paramMode": "default",
+                  "parameterId": "user_",
+                  "attributeId": "attr_01690273326414"
+                }
+              ],
+              "stepCategory": "inbuilt",
+              "stepType": "Action",
+              "visibleCheck": false,
+              "specific": []
+            },
+            {
+              "commented": true,
+              "action": "_setValue",
+              "stepParameters": [
+                {
+                  "paramMode": "default",
+                  "parameterId": "user_",
+                  "attributeId": "attr_11690273326414",
+                  "accessorId": "acc0"
+                },
+                {
+                  "paramMode": "default",
+                  "parameterId": "user_",
+                  "attributeId": "attr_11690273326414"
+                }
+              ],
+              "stepCategory": "inbuilt",
+              "stepType": "Action",
+              "visibleCheck": false,
+              "specific": []
+            },
+            {
+              "commented": true,
+              "action": "_setValue",
+              "stepParameters": [
+                {
+                  "paramMode": "default",
+                  "parameterId": "user_",
+                  "attributeId": "attr_21690273326414",
+                  "accessorId": "acc0"
+                },
+                {
+                  "paramMode": "default",
+                  "parameterId": "user_",
+                  "attributeId": "attr_21690273326414"
+                }
+              ],
+              "stepCategory": "inbuilt",
+              "stepType": "Action",
+              "visibleCheck": false,
+              "specific": []
+            },
+            {
+              "commented": true,
+              "action": "_setValue",
+              "stepParameters": [
+                {
+                  "paramMode": "default",
+                  "parameterId": "user_",
+                  "attributeId": "attr_31690273326414",
+                  "accessorId": "acc0"
+                },
+                {
+                  "paramMode": "default",
+                  "parameterId": "user_",
+                  "attributeId": "attr_31690273326414"
+                }
+              ],
+              "stepCategory": "inbuilt",
+              "stepType": "Action",
+              "visibleCheck": false,
+              "specific": []
+            },
+            {
+              "commented": true,
+              "action": "_setValue",
+              "stepParameters": [
+                {
+                  "paramMode": "default",
+                  "parameterId": "user_",
+                  "attributeId": "attr_41690273326414",
+                  "accessorId": "acc0"
+                },
+                {
+                  "paramMode": "default",
+                  "parameterId": "user_",
+                  "attributeId": "attr_41690273326414"
+                }
+              ],
+              "stepCategory": "inbuilt",
+              "stepType": "Action",
+              "visibleCheck": false,
+              "specific": []
+            },
+            {
+              "commented": true,
+              "action": "_setValue",
+              "stepParameters": [
+                {
+                  "paramMode": "default",
+                  "parameterId": "user_",
+                  "attributeId": "attr_41690273326414",
+                  "accessorId": "acc1"
+                },
+                {
+                  "paramMode": "default",
+                  "parameterId": "user_",
+                  "attributeId": "attr_41690273326414"
+                }
+              ],
+              "stepCategory": "inbuilt",
+              "stepType": "Action",
+              "visibleCheck": false,
+              "specific": []
+            },
+            {
+              "commented": true,
+              "action": "_setSelected",
+              "stepParameters": [
+                {
+                  "paramMode": "default",
+                  "screenId": "registration",
+                  "accessorId": "acc2"
+                },
+                {
+                  "paramMode": "code",
+                  "customValue": "\"0\""
+                }
+              ],
+              "stepCategory": "inbuilt",
+              "stepType": "Action",
+              "specific": []
+            },
+            {
+              "commented": true,
+              "action": "_check",
+              "stepParameters": [
+                {
+                  "paramMode": "default",
+                  "screenId": "registration",
+                  "accessorId": "acc0"
+                },
+                {
+                  "paramMode": "code",
+                  "customValue": "true"
+                }
+              ],
+              "stepCategory": "inbuilt",
+              "stepType": "Action",
+              "visibleCheck": false,
+              "specific": []
+            },
+            {
+              "commented": true,
+              "action": "_click",
+              "stepParameters": [
+                {
+                  "paramMode": "default",
+                  "screenId": "registration",
+                  "accessorId": "acc1"
+                }
+              ],
+              "stepCategory": "inbuilt",
+              "stepType": "Action",
+              "visibleCheck": false,
+              "specific": []
+            }
+          ]
+        },
+        "enabled": false
+      },
+      {
+        "filterId": "fltUID_0f8dacf30ae44040bc0ae4d0b2c16c5478e3",
+        "overrides": {
+          "steps": [
+            {
+              "commented": false,
+              "action": "_setValue",
+              "stepParameters": [
+                {
+                  "paramMode": "default",
+                  "parameterId": "user_",
+                  "attributeId": "attr_01690273326414",
+                  "accessorId": "acc0"
+                },
+                {
+                  "paramMode": "code",
+                  "customValue": "$user.firstname"
+                }
+              ],
+              "stepCategory": "inbuilt",
+              "stepType": "Action",
+              "visibleCheck": false,
+              "blurDisableCheck": false,
+              "specific": []
+            },
+            {
+              "commented": false,
+              "action": "_getText",
+              "stepParameters": [
+                {
+                  "paramMode": "default",
+                  "parameterId": "user_",
+                  "attributeId": "attr_01690273326414",
+                  "accessorId": "acc0"
+                }
+              ],
+              "stepCategory": "inbuilt",
+              "stepType": "Assert",
+              "assertType": "Contains",
+              "secondaryParam": {
+                "paramMode": "string",
+                "customValue": "{{$user.firstname}}"
+              },
+              "specific": []
+            }
+          ]
+        },
+        "enabled": true
+      }
+    ],
+    "parameters": [
+      {
+        "parameterId": "user_",
+        "entityTypeId": "user",
+        "suffix": ""
+      }
+    ],
+    "steps": [
+      {
+        "commented": false,
+        "action": "_setValue",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_01690273326414",
+            "accessorId": "acc0"
+          },
+          {
+            "paramMode": "code",
+            "customValue": "$user.firstname"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "visibleCheck": false,
+        "blurDisableCheck": false,
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_getText",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_01690273326414",
+            "accessorId": "acc0"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Assert",
+        "assertType": "Contains",
+        "secondaryParam": {
+          "paramMode": "string",
+          "customValue": "{{$user.firstname}}"
+        },
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_setValue",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_11690273326414",
+            "accessorId": "acc0"
+          },
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_11690273326414"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "visibleCheck": false,
+        "blurDisableCheck": false,
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_setValue",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_21690273326414",
+            "accessorId": "acc0"
+          },
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_21690273326414"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "visibleCheck": false,
+        "blurDisableCheck": false,
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_setValue",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_31690273326414",
+            "accessorId": "acc0"
+          },
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_31690273326414"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "visibleCheck": false,
+        "blurDisableCheck": false,
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_setValue",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_41690273326414",
+            "accessorId": "acc0"
+          },
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_41690273326414"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "visibleCheck": false,
+        "blurDisableCheck": false,
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_setValue",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_41690273326414",
+            "accessorId": "acc1"
+          },
+          {
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_41690273326414"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "visibleCheck": false,
+        "blurDisableCheck": false,
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_setSelected",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "screenId": "registration",
+            "accessorId": "acc2"
+          },
+          {
+            "paramMode": "code",
+            "customValue": "\"0\""
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_check",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "screenId": "registration",
+            "accessorId": "acc0"
+          },
+          {
+            "paramMode": "code",
+            "customValue": "true"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "visibleCheck": false,
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_click",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "screenId": "registration",
+            "accessorId": "acc1"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "visibleCheck": false,
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

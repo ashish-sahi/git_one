@@ -1,0 +1,115 @@
+{
+  "name": "Login",
+  "id": "-1",
+  "type": 0,
+  "content": {
+    "nodesMap": {
+      "fcn_start_0": {
+        "id": "fcn_start_0",
+        "content": "Start",
+        "nodeType": "start",
+        "branches": [
+          "fcn_logintoo_1727951679265_0"
+        ]
+      },
+      "fcn_logintoo_1727951679265_0": {
+        "id": "fcn_logintoo_1727951679265_0",
+        "content": "Login Too",
+        "nodeType": "pathlabel",
+        "branches": [
+          "fcn_userexists_1727951679265_0"
+        ]
+      },
+      "fcn_userexists_1727951679265_0": {
+        "id": "fcn_userexists_1727951679265_0",
+        "content": "$user.exists?",
+        "nodeType": "decision",
+        "branches": [
+          null,
+          "fcn_loginuser_1727951679265_0"
+        ]
+      },
+      "fcn_loginuser_1727951679265_0": {
+        "id": "fcn_loginuser_1727951679265_0",
+        "content": "Login $user test",
+        "nodeType": "action",
+        "branches": [
+          "fcn_userloggedintrue_1727951679265_0"
+        ]
+      },
+      "fcn_userloggedintrue_1727951679265_0": {
+        "id": "fcn_userloggedintrue_1727951679265_0",
+        "content": "$user.loggedIn\u003dtrue",
+        "nodeType": "state",
+        "branches": []
+      }
+    },
+    "positions": {
+      "fcn_start_0": {
+        "top": 150.0,
+        "left": 500.0
+      },
+      "fcn_logintoo_1727951679265_0": {
+        "top": 211.0,
+        "left": 500.0
+      },
+      "fcn_userexists_1727951679265_0": {
+        "top": 270.0,
+        "left": 500.0
+      },
+      "fcn_loginuser_1727951679265_0": {
+        "top": 343.5,
+        "left": 500.0
+      },
+      "fcn_userloggedintrue_1727951679265_0": {
+        "top": 408.625,
+        "left": 500.0
+      }
+    },
+    "settings": {
+      "maxProceedDepth": 100,
+      "maxProceedsForFirstDepth": 1,
+      "maxProceedsPerDepth": 1,
+      "maxPathRepititionsPerComboPath": 1,
+      "maxProceedsPerPath": 10000,
+      "maxToggles": 2,
+      "maxMatchingPaths": 3
+    },
+    "isPrimary": true,
+    "pathNames": [
+      {
+        "pathKey": [
+          "fcn_logintoo_1727951679265_0",
+          "fcn_userexists_1727951679265_0",
+          "fcn_loginuser_1727951679265_0",
+          "fcn_userloggedintrue_1727951679265_0"
+        ],
+        "pathName": "Login Path",
+        "dependsPathUID": "17280248008560",
+        "dataSet": {
+          "dataSetName": "AshishData.csv",
+          "dataSetGroupName": "default"
+        },
+        "isValidationsEnabled": false
+      },
+      {
+        "pathKey": [
+          "fcn_logintoo_1727951679265_0",
+          "fcn_loginuser_1727951679265_0",
+          "fcn_userloggedintrue_1727951679265_0"
+        ],
+        "pathName": "Login Two Path",
+        "dependsPathUID": "17280248008560",
+        "dataSet": {
+          "dataSetName": "AshishData.csv",
+          "dataSetGroupName": "default"
+        },
+        "isValidationsEnabled": false
+      }
+    ],
+    "flowChartUID": "fcUID_1727951642717",
+    "pathExecutionOrder": []
+  },
+  "enabled": true,
+  "parentId": ""
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Add $user to $user2",
+  "id": "0",
+  "type": 3,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "Add $user to $user2",
+    "specific": [],
+    "parameters": [
+      {
+        "parameterId": "user_",
+        "entityTypeId": "user",
+        "suffix": ""
+      },
+      {
+        "parameterId": "user_2",
+        "entityTypeId": "user",
+        "suffix": "2"
+      }
+    ],
+    "steps": []
+  },
+  "enabled": false,
+  "parentId": ""
+}

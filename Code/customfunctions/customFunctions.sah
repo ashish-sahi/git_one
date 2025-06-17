@@ -1,0 +1,24 @@
+onScriptEnd  = function() {
+	_log("onScriptEnd");
+}
+
+onScriptError = function($e){
+  _log(">> In onScriptError");
+}
+onScriptFailure = function($e){
+  _log(">> In onScriptFailure");
+}
+
+/**
+ testEntityObject function, just testing
+ @param $user
+*/
+function testEntityObject($user) {
+	_log(JSON.stringify($user));
+}
+/**
+ Test function, just testing
+*/
+function test(){
+	return "custom";
+}

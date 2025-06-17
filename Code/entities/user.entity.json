@@ -1,0 +1,281 @@
+{
+  "name": "user",
+  "id": "-1",
+  "type": 1,
+  "content": {
+    "default": {
+      "attr_01690273326414": {
+        "name": "firstname",
+        "accessors": [
+          {
+            "id": "acc0",
+            "name": "First Name Input",
+            "accessor": "_textbox(\"firstname\")",
+            "messageAccessor": ""
+          },
+          {
+            "id": "acc_textbox_lastname",
+            "name": "Lastname Input",
+            "accessor": "_textbox(\"lastname\")",
+            "messageAccessor": ""
+          }
+        ],
+        "type": "text",
+        "props": {
+          "prefix": "Ashish",
+          "include-alphabet": "true",
+          "include-numeric": "false",
+          "include-special": "false",
+          "add-timestamp": "false",
+          "values": {
+            "None": [
+              "Ashish",
+              "Kushagra"
+            ]
+          }
+        },
+        "invalidData": [
+          {
+            "value": "",
+            "message": "First Name must be between 1 and 32 characters!",
+            "comment": "Should not be blank"
+          }
+        ],
+        "validData": [
+          {
+            "value": "normal Ashish\tvalid",
+            "comment": ""
+          }
+        ],
+        "specific": [
+          {
+            "filterId": "fltUID_f72663ba0e67404c4708d6806738633b5462",
+            "overrides": {
+              "type": "text",
+              "props": {
+                "prefix": "name _incorrectPassword",
+                "include-alphabet": "true",
+                "include-numeric": "true",
+                "include-special": "false"
+              },
+              "invalidData": [
+                {
+                  "value": "",
+                  "message": "Name cannot be blank",
+                  "comment": "blank"
+                },
+                {
+                  "value": "a;b",
+                  "message": "Name can contain only alphabets",
+                  "comment": "semi-colon"
+                }
+              ]
+            }
+          },
+          {
+            "filterId": "fltUID_338bdd4107e3d04d1b080b202069864808a7",
+            "overrides": {
+              "accessors": [
+                {
+                  "id": "acc1",
+                  "name": "First Name Input Two",
+                  "accessor": "_emailbox(\"email\")",
+                  "messageAccessor": "_div(\"text-danger\", _near(_label(\"Email\")))"
+                }
+              ],
+              "type": "text",
+              "props": {
+                "prefix": "_admin firstname",
+                "include-alphabet": "true",
+                "include-numeric": "true",
+                "include-special": "false",
+                "add-timestamp": "false"
+              },
+              "validData": [
+                {
+                  "value": "_admin Valid test",
+                  "comment": "blank"
+                },
+                {
+                  "value": "_admin Valid 2",
+                  "comment": "semi-colon"
+                }
+              ]
+            }
+          },
+          {
+            "filterId": "fltUID_855a0806060ce04a06083530348895e6d04d",
+            "overrides": {}
+          }
+        ]
+      },
+      "attr_11690273326414": {
+        "name": "lastname",
+        "accessors": [
+          {
+            "id": "acc0",
+            "name": "Last Name Input",
+            "accessor": "_textbox(\"lastname\")",
+            "messageAccessor": ""
+          }
+        ],
+        "type": "text",
+        "props": {
+          "prefix": "Kumar",
+          "include-alphabet": "true",
+          "include-numeric": "false",
+          "include-special": "false",
+          "values": {
+            "Kushagra": [
+              "Yadav"
+            ],
+            "Ashish": [
+              "Kumar"
+            ]
+          }
+        },
+        "invalidData": [],
+        "validData": [
+          {
+            "value": "Kumar",
+            "comment": ""
+          }
+        ],
+        "specific": [
+          {
+            "filterId": "fltUID_f72663ba0e67404c4708d6806738633b5462",
+            "overrides": {
+              "validData": [
+                {
+                  "value": "_incorrectPassword Valid",
+                  "comment": "blank"
+                }
+              ]
+            }
+          },
+          {
+            "filterId": "fltUID_855a0806060ce04a06083530348895e6d04d",
+            "overrides": {}
+          }
+        ]
+      },
+      "attr_21690273326414": {
+        "name": "email",
+        "accessors": [
+          {
+            "id": "acc0",
+            "name": "Email Input",
+            "accessor": "_emailbox(\"email\")",
+            "messageAccessor": ""
+          },
+          {
+            "id": "acc1",
+            "name": "Email Input Login",
+            "accessor": "_textbox(\"email\")",
+            "messageAccessor": ""
+          }
+        ],
+        "type": "email",
+        "props": {
+          "names": [
+            "{{$this.firstname}}.{{$this.lastname}}"
+          ],
+          "domains": [
+            "sahipro.com"
+          ],
+          "excludes": [
+            "testflowchart.com"
+          ],
+          "add-timestamp": "false"
+        },
+        "invalidData": [],
+        "validData": []
+      },
+      "attr_31690273326414": {
+        "name": "telephone",
+        "accessors": [
+          {
+            "id": "acc0",
+            "name": "Phone Input",
+            "accessor": "_telephonebox(\"telephone\")",
+            "messageAccessor": ""
+          }
+        ],
+        "type": "number",
+        "props": {
+          "prefix": "1",
+          "min": "6000000000",
+          "max": "9999999999",
+          "decimals": "2",
+          "separator": ",",
+          "decimal-separator": ".",
+          "suffix": "2"
+        },
+        "invalidData": [],
+        "validData": []
+      },
+      "attr_41690273326414": {
+        "name": "password",
+        "accessors": [
+          {
+            "id": "acc0",
+            "name": "Password Input",
+            "accessor": "_password(\"password\")",
+            "messageAccessor": "_div(\"text-danger\", _password(\"password\"))"
+          },
+          {
+            "id": "acc1",
+            "name": "Confirm Password Input",
+            "accessor": "_password(\"confirm\")",
+            "messageAccessor": "_div(\"text-danger\", _password(\"password\"))"
+          }
+        ],
+        "type": "text",
+        "props": {
+          "prefix": "Ashish@Sahi",
+          "min-length": "0",
+          "max-length": "0",
+          "suffix": "12",
+          "include-alphabet": "true",
+          "include-numeric": "true",
+          "include-special": "false"
+        },
+        "invalidData": [
+          {
+            "value": "",
+            "message": "Password must be between 4 and 20 characters!",
+            "comment": ""
+          }
+        ],
+        "validData": []
+      },
+      "attr_one_5": {
+        "name": "one",
+        "accessors": [
+          {
+            "id": "acc_textbox_user",
+            "name": "One Input",
+            "accessor": "_textbox(\"user\")",
+            "messageAccessor": ""
+          },
+          {
+            "id": "acc_password_password",
+            "name": "Password Input",
+            "accessor": "_password(\"password\")",
+            "messageAccessor": ""
+          }
+        ],
+        "type": "text",
+        "props": {
+          "prefix": "johnDoe",
+          "min-length": "0",
+          "max-length": "0"
+        },
+        "invalidData": [],
+        "validData": []
+      }
+    }
+  },
+  "enabled": false,
+  "parentId": ""
+}
