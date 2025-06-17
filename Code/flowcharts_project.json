@@ -63,6 +63,16 @@
       "Library",
       "Message Template",
       "Message Template For Be Conversive"
-    ]
+    ],
+    "callbacks": {
+      "onScriptEnd": {
+        "callbackFunction": "onScriptEnd",
+        "callbackKeyword": "callback_two"
+      },
+      "onScriptFailure": {
+        "callbackFunction": "onScriptFailure",
+        "callbackKeyword": "callback_one"
+      }
+    }
   }
 }
