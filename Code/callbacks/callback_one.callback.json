@@ -1,6 +1,6 @@
 {
   "name": "callback_one",
-  "id": "0",
+  "id": "-1",
   "type": 5,
   "content": {
     "isSystemKeyword": false,
@@ -14,7 +14,21 @@
         "stepParameters": [
           {
             "paramMode": "string",
-            "customValue": "add test"
+            "customValue": "add test two three"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_click",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "screenId": "base",
+            "accessorId": "acc0"
           }
         ],
         "stepCategory": "inbuilt",
