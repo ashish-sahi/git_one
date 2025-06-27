@@ -8,11 +8,11 @@
     "callbacks": {
       "onScriptEnd": {
         "callbackFunction": "onScriptEnd",
-        "callbackKeyword": "callback_one"
+        "callbackKeyword": "callback_two"
       },
       "onScriptError": {
         "callbackFunction": "onScriptError",
-        "callbackKeyword": "callback_one"
+        "callbackKeyword": "callback_two"
       }
     },
     "filters": {
