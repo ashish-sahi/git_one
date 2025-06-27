@@ -136,11 +136,11 @@
     "callbacks": {
       "onScriptError": {
         "callbackFunction": "onScriptError",
-        "callbackKeyword": "callback_one"
+        "callbackKeyword": "callback_two"
       },
       "onScriptEnd": {
         "callbackFunction": "onScriptEnd",
-        "callbackKeyword": "callback_one"
+        "callbackKeyword": "callback_two"
       }
     }
   },
