@@ -13,10 +13,6 @@
       "onScriptFailure": {
         "callbackFunction": "onScriptFailure",
         "callbackKeyword": "callback_one"
-      },
-      "onScriptFailure": {
-        "callbackFunction": "onScriptFailure",
-        "callbackKeyword": "callback_two"
       }
     },
     "filters": {
