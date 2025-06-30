@@ -5,16 +5,7 @@
     "isCustomFunctionsFromScriptsDir": false,
     "projectSuiteInfo": [],
     "flowchartsAndExternalDdcsvInfo": {},
-    "callbacks": {
-      "onScriptEnd": {
-        "callbackFunction": "onScriptEnd",
-        "callbackKeyword": "callback_one"
-      },
-      "onScriptFailure": {
-        "callbackFunction": "onScriptFailure",
-        "callbackKeyword": "callback_one"
-      }
-    },
+    "callbacks": {},
     "filters": {
       "fltUID_855a0806060ce04a06083530348895e6d04d": {
         "combo": {
