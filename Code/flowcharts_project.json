@@ -8,7 +8,11 @@
     "callbacks": {
       "onScriptEnd": {
         "callbackFunction": "onScriptEnd",
-        "callbackKeyword": "callback_two"
+        "callbackKeyword": "callback_one"
+      },
+      "onScriptFailure": {
+        "callbackFunction": "onScriptFailure",
+        "callbackKeyword": "callback_one"
       },
       "onScriptError": {
         "callbackFunction": "onScriptError",
