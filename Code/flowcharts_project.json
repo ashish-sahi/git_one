@@ -14,8 +14,8 @@
         "callbackFunction": "onScriptFailure",
         "callbackKeyword": "callback_one"
       },
-      "onScriptError": {
-        "callbackFunction": "onScriptError",
+      "onScriptFailure": {
+        "callbackFunction": "onScriptFailure",
         "callbackKeyword": "callback_two"
       }
     },
